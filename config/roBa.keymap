@@ -95,8 +95,6 @@
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT INTERNATIONAL_4  &lt 3 SPACE  &lt_to_layer_0 4 INT_MUHENKAN      &kp BACKSPACE  &lt 2 ENTER                             &lt_to_layer_0 6 DELETE
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
-
             // sensor-bindings = <&encoder_msc_down_up>;
         };
 
