@@ -111,10 +111,10 @@
 
         NUM {
             bindings = <
-&kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LS(SEMI)                                                          &kp ASTERISK        &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp DOLLAR        &kp AMPERSAND
-&kp SLASH     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(SINGLE_QUOTE)  &kp LC(LA(KP_NUMBER_0))      &kp RIGHT_BRACKET  &kp BACKSLASH       &kp HASH              &kp SEMICOLON    &kp SINGLE_QUOTE  &kp AT_SIGN
-&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD            &kp EQUAL                    &to 1              &kp K_CONTEXT_MENU  &kp EQUAL             &kp COMMA        &kp DOT           &kp LEFT_BRACKET
-&trans        &trans        &trans        &trans        &trans                &trans                       &trans             &trans                                                                       &kp INT_YEN
+&kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LS(SEMI)                                                          &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp HASH          &kp AMPERSAND
+&kp SLASH     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(SINGLE_QUOTE)  &kp LC(LA(KP_NUMBER_0))      &kp RIGHT_BRACKET  &kp BACKSLASH  &kp DOLLAR            &kp SEMICOLON    &kp SINGLE_QUOTE  &kp AT_SIGN
+&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD            &kp EQUAL                    &mo 1              &kp CARET      &kp EQUAL             &kp COMMA        &kp DOT           &kp LEFT_BRACKET
+&trans        &trans        &trans        &trans        &trans                &trans                       &trans             &trans                                                                  &kp INT_YEN
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
