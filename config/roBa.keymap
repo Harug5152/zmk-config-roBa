@@ -117,7 +117,7 @@
 &trans        &trans        &trans        &trans        &trans                &trans                       &trans             &trans                                                                  &kp INT_YEN
             >;
 
-            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP K_VOLUME_UP>;
         };
 
         ARROW {
